@@ -93,3 +93,13 @@ ul,ol,li{
 .color000{
     color: #000;
 }
+
+/*清除浮动，在容器元素上加clearfix类*/
+.clearfix:after{
+     content: '';
+     display: block; /*或者 table*/
+     clear: both;
+ }
+ .clearfix{
+     zoom: 1; /* IE 兼容*/
+ }
