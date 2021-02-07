@@ -103,3 +103,11 @@ ul,ol,li{
  .clearfix{
      zoom: 1; /* IE 兼容*/
  }
+
+/*超过一行展示省略号*/
+  .one-line{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow:ellipsis; 
+      }
+
