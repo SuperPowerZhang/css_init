@@ -61,6 +61,16 @@ input[type=submit],input[type=button]{
 button[disabled], input[disabled] {
     cursor: default;
 }
+button{
+    /*消除button的默认样式*/
+    /*这种写法是对所有的button标签同时生效*/
+    margin: 0px;
+    padding: 0px;
+    /*自定义边框*/
+    border: 0px;
+    /*消除默认点击蓝色边框效果*/
+    outline: none;
+}
 img{
     border:none;
 }
@@ -86,6 +96,7 @@ ul,ol,li{
 .cursor{
     cursor: pointer;
 }
+
 /*背景及色值表*/
 .bg000{
     background: #000;
